@@ -10,7 +10,7 @@ import './YouTube.css';
                     <p className="time">{props.time}</p>
                 </div>
                 <p className="title">{props.title}</p>
-                <p className="desc">desc here</p>
+                <p className="desc">{props.desc}</p>
             </div>
         )
         
@@ -20,7 +20,8 @@ import './YouTube.css';
 
 YouTube.defaultProps =  {
         time : "0.0",
-        title : "Belum di atur"
+        title : "Belum di atur",
+        desc: "0 ditonton, 0 hari yang lalu"
 }
 
 
